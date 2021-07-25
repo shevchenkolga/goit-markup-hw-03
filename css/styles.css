@@ -1,0 +1,208 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* акцент #2196F3 */
+/* цвет фона основной #FFFFFF */
+/* цвет фона вторичный #F5F4FA */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.list {
+  list-style: none;
+}
+/* logo */
+.logo {
+  text-decoration: none;
+}
+.logo .logo-web {
+  color: var(--accent-color);
+  font-family: Raleway, ans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-studio {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-studio.footer {
+  color: var(--primary-white-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+/* site nav */
+.nav .nav-site {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav .nav-site:hover,
+.nav .nav-site:focus {
+  color: var(--accent-color);
+}
+.nav .nav-site.current {
+  color: var(--accent-color);
+}
+.contacts .contacts-site {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts .contacts-site:hover,
+.contacts .contacts-site:focus {
+  color: var(--accent-color);
+}
+.contacts .contacts-site.current {
+  color: var(--accent-color);
+}
+/* btn */
+.button-primary:hover,
+.button-primary:focus {
+  color: var(--primary-white-color);
+  background-color: #188ce8;
+}
+.button-primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+}
+.btn {
+  color: var(--title-text-color);
+}
+.button-secondary,
+.button-secondary.current {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+  font-family: inherit;
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.button-secondary.current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-subtitle {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.portfolio-link {
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* section titles */
+.advantages-subtitle,
+.title-presentation,
+.title-presentation,
+.subtitle-names,
+.btn-darken,
+.portfolio-title {
+  color: var(--title-text-color);
+}
+.title-presentation {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* Наше преимущество секция - заголовки */
+.advantages-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+/* Наше преимущество - текс */
+.advantages-text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* section-box teams */
+.section-box.teams {
+  background-color: #f5f4fa;
+}
+.subtitle-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.1;
+}
+.portfolio-subtitle {
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+.footer-section {
+  background-color: #2f303a;
+}
+.address-name {
+  color: var(--primary-white-color);
+  font-style: normal;
+  text-decoration: none;
+}
+.address-email {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  text-decoration: none;
+}
+.address-phone {
+  color: #c4c4c4;
+  font-style: normal;
+  text-decoration: none;
+}
+.address-email:hover,
+.address-email:focus {
+  color: var(--accent-color);
+}
+.address-phone:hover,
+.address-phone:focus {
+  color: var(--accent-color);
+}
