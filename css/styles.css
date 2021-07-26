@@ -17,8 +17,17 @@ body {
   font-size: 14px;
   line-height: 1.7;
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 /* logo */
 .logo {
@@ -38,6 +47,12 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
+.logo-studio.footer,
+.logo-web.footer {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
 .logo-studio.footer {
   color: var(--primary-white-color);
   font-family: Raleway;
@@ -83,20 +98,30 @@ body {
   background-color: #188ce8;
 }
 .button-primary {
+  display: inline-block;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: inherit;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  text-align: center;
 }
 .btn {
   color: var(--title-text-color);
 }
 .button-secondary,
 .button-secondary.current {
+  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   cursor: pointer;
   font-family: inherit;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  text-align: center;
 }
 .button-secondary:hover,
 .button-secondary:focus {
@@ -112,10 +137,13 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 .portfolio-subtitle {
   font-size: 16px;
   line-height: 1.8;
+  margin: 0;
 }
 .portfolio-link {
   text-decoration: none;
@@ -124,10 +152,13 @@ body {
 /* Hero */
 .hero {
   background-color: #2f303a;
+  text-align: center;
+  padding: 200px 452px;
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: #ffffff;
-  font-style: 400;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -144,14 +175,31 @@ body {
 .portfolio-title {
   color: var(--title-text-color);
 }
+.section-box.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-box.presentation {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+.section-box.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0;
+}
 .title-presentation {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 /* Наше преимущество секция - заголовки */
 .advantages-subtitle {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -161,19 +209,26 @@ body {
 .advantages-text {
   font-size: 14px;
   line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* section-box teams */
 .section-box.teams {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .subtitle-names {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .profession {
   font-size: 16px;
   line-height: 1.1;
+  margin: 0;
 }
 .portfolio-subtitle {
   color: var(--primary-text-color);
@@ -182,16 +237,22 @@ body {
 /* Footer */
 .footer-section {
   background-color: #2f303a;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .address-name {
+  display: inline-block;
   color: var(--primary-white-color);
   font-style: normal;
   text-decoration: none;
+  margin-bottom: 9px;
 }
 .address-email {
+  display: inline-block;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   text-decoration: none;
+  margin-bottom: 9px;
 }
 .address-phone {
   color: #c4c4c4;
