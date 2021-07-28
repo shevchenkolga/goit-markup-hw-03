@@ -72,7 +72,7 @@ body {
   line-height: 1.19;
 }
 /* site nav */
-.nav-site.list {
+.navigation {
   display: flex;
   margin-left: 93px;
 }
@@ -110,6 +110,8 @@ body {
 }
 .contacts-number {
   margin-left: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contacts .contacts-number,
 .contacts-site {
@@ -127,12 +129,14 @@ body {
 .contacts .contacts-site.current {
   color: var(--accent-color);
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /* btn */
 .btn.list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   margin-top: 0;
 }
 .btn-links:not(:last-child) {
@@ -228,7 +232,10 @@ body {
 .hero {
   background-color: #2f303a;
   text-align: center;
-  padding: 200px 452px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-right: 0;
+  padding-left: 0;
 }
 .hero-title {
   margin-top: 0;
@@ -363,6 +370,8 @@ body {
   padding-bottom: 20px;
   padding-right: 24px;
   padding-left: 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 .portfolio-subtitle {
   color: var(--primary-text-color);
